@@ -1,0 +1,120 @@
+body {
+    background-color: #1e213d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+    text-align: left;
+}
+
+li {
+    color: white;
+    text-align: left;
+}
+
+.container-fluid {
+    display: flex;
+    margin-top: 5px;
+}
+
+.columna1 {
+    width: 20%;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.columna2 {
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    color: white;
+}
+
+#fila2 {
+    margin-top: 5%;
+}
+
+.boton_main {
+    width: 200px;
+    margin-bottom: 5%;
+    height: 50px;
+    border: none;
+    border-radius: 15px; 
+    background-color: white;
+    color: #1e213d;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+}
+
+.boton_main:hover {
+    background-color: #9bc4e2; 
+}
+
+#escuela {
+    height: 50%;
+    width: 50%;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+#fila3 {
+    margin-top: 5%;
+}
+
+#SingInTxt {
+    color: white;
+    margin-top: 5%;
+}
+
+.SingInLabels {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.SingInValues {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.SingInbtnIngresar {
+    width: 70%;
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #008f4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.SingInbtnRegistrarse {
+    width: 70%;
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #536895;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.SingInbtn:hover {
+    background-color: #0056b3;
+}
