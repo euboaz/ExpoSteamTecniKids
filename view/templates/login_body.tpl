@@ -26,6 +26,6 @@
                 </form>
                 <form>
                     <input type="hidden" name="accion" value="Diversificado">
-                    <button type="submit" class="boton_main">Diversificad</button>
+                    <button type="submit" class="boton_main">Diversificado</button>
                 </form>
             </div>
