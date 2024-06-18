@@ -91,22 +91,21 @@ body, html {
     flex-direction: row;
     overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
     overflow-x: scroll; /* Permite el desplazamiento horizontal */
-    gap: 30px; /* Espaciado entre tarjetas */
     margin-bottom: -20px; /* Elimina el espacio adicional del scrollbar */
     padding-bottom: 20px; 
     align-items: center; /* Alinea verticalmente las tarjetas si varían en altura */
 }
 
-/* Estilo individual de las tarjetas */
+/* Estilo individual de las cards */
 .card {
-    padding: 10px;
+    padding: 12px;
+    margin: 10px;
     flex: 0 0 auto; /* Evita que las tarjetas se estiren */
-    width: 400px; /* Ancho fijo para todas las tarjetas */
+    width: 300px; /* Ancho fijo para todas las tarjetas */
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     background-color: white;
-    transition: transform 0.2s; /* Animación suave al interactuar */
     text-align: center; /* Alinea el texto al centro */
 }
 
@@ -116,7 +115,7 @@ body, html {
 }
 
 .card:hover {
-    transform: scale(1.05); /* Efecto de escala al pasar el cursor */
+    transform: scale(1.05); 
 }
 
 .card a {
@@ -133,7 +132,7 @@ body, html {
     background-color: #2f4538;
 }
 
-/* boton iniciar sesion */
+/* boton iniciar sesión */
 .iniciar-sesion-btn {
     background-color: white;
     color: #2f4538;

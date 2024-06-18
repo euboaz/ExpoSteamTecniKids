@@ -1,15 +1,15 @@
 {include file="login_head.tpl"}
-
 <video autoplay muted loop id="videoBackground">
-        <source src="resources/natureBackground.mp4" type="video/mp4">
-        Tu navegador no soporta video HTML5.
-    </video>
+   <source src="resources/natureBackground.mp4" type="video/mp4">
+     Tu navegador no soporta el video.
+</video>
 
-    <div class="welcome-message">
-    <h1>Página oficial de resultados de la Expo STEAM 2024</h1>
-    <p>Nos complace darte la bienvenida a este emocionante campeonato de robótica, donde la creatividad y la innovación alcanzan su máximo esplendor. Ya seas un entusiasta que sigue de cerca a su equipo favorito o simplemente un curioso de la robótica y la innovación, estamos aquí para guiarte en cada paso de esta jornada inspiradora.</p>
-    <p>Acompáñanos en esta celebración de la ingeniería y la creatividad. ¡Que comience la Expo STEAM 2024!</p>
+<div class="welcome-message">
+   <h1>Página oficial de resultados de la Expo STEAM 2024</h1>
+   <p>Nos complace darte la bienvenida a este emocionante campeonato de robótica, donde la creatividad y la innovación alcanzan su máximo esplendor. Ya seas un entusiasta que sigue de cerca a su equipo favorito o simplemente un curioso de la robótica y la innovación, estamos aquí para guiarte en cada paso de esta jornada inspiradora.</p>
+   <p>Acompáñanos en esta celebración de la ingeniería y la creatividad. ¡Que comience la Expo STEAM 2024!</p>
 </div>
+
 <div class="container-fluid">
      <div class="card-container">
 
