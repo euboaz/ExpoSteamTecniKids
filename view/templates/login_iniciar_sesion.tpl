@@ -8,7 +8,7 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <!-- ruta relativa al archivo CSS -->
-    <link rel="stylesheet" href=".\body_main.css">
+    <link rel="stylesheet" href=".\css\body_main.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/utilities/utilities.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
