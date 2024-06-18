@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-06-13 07:31:25
+/* Smarty version 4.3.4, created on 2024-06-13 08:40:55
   from 'C:\xampp\htdocs\ExpoSteamTecniKids\view\templates\login_body.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_666a842d5f22f9_23813104',
+  'unifunc' => 'content_666a94772b0621_03184221',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '77c4e255e655af1355b4cdcfb13277a6a9b72e3e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ExpoSteamTecniKids\\view\\templates\\login_body.tpl',
-      1 => 1718256172,
+      1 => 1718260081,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_666a842d5f22f9_23813104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666a94772b0621_03184221 (Smarty_Internal_Template $_smarty_tpl) {
 ?>            <a href="?accion=iniciar_sesion">Iniciar Sesión</a>
         </div>
     </nav>
