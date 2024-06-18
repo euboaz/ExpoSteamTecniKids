@@ -49,7 +49,7 @@ class control
                     $this->view->setDisplay('login_content_Diversificado.tpl');
                     break;
                 case 'menu_principal':
-                    $this->view->setDisplay('login_content_main.tpl');
+                    $this->view->setDisplay('login_body.tpl');
                     break;
                 //FUNCIONES DEL MENU USUARIO ALUMNO
                 case 'menu_juez':
@@ -63,7 +63,7 @@ class control
                     break;
             }
         } else {
-            $this->view->setDisplay('login_content_main.tpl');
+            $this->view->setDisplay('login_body.tpl');
         }
     }
     public function c_validar_login()

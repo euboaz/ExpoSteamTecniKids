@@ -1,0 +1,155 @@
+body, html {
+    height: 100%; /* Esto es necesario para ocupar toda la pantalla con el video */
+    margin: 0;
+    padding: 0;
+}
+
+#videoBackground {
+    position: fixed; /* Hace que el video quede fijo en el fondo */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; /* Coloca el video detrás de todo el contenido */
+    background-size: cover;
+}
+
+/* Mensaje de bienvenida */
+.welcome-message {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #2f4538; 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.welcome-message h1 {
+    font-size: 30px;
+    color: #1e213d;
+}
+
+.welcome-message p {
+    font-size: 18px;
+    line-height: 1.6; 
+    margin-top: 10px;
+}
+
+
+/* Form inicio de sesión */
+.form-container {
+    background: #d7d0b7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta la posición exacta al centro */
+}
+
+.form-signin {
+    display: flex;
+    flex-direction: column;
+}
+
+.SignInLabels, .SignInValues {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.SignInbtnIngresar {
+    background-color: #2f4538;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.SignInbtnIngresar:hover {
+    background-color: #1e213d;
+}
+
+/* Contenedor para el desplazamiento horizontal */
+.container-fluid {
+    width: 100%;
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+    overflow-x: scroll; /* Permite el desplazamiento horizontal */
+    gap: 30px; /* Espaciado entre tarjetas */
+    margin-bottom: -20px; /* Elimina el espacio adicional del scrollbar */
+    padding-bottom: 20px; 
+    align-items: center; /* Alinea verticalmente las tarjetas si varían en altura */
+}
+
+/* Estilo individual de las tarjetas */
+.card {
+    padding: 10px;
+    flex: 0 0 auto; /* Evita que las tarjetas se estiren */
+    width: 400px; /* Ancho fijo para todas las tarjetas */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s; /* Animación suave al interactuar */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el cursor */
+}
+
+.card a {
+   text-decoration: none;
+   color: #1e213d;
+   display: block;
+   padding: 15px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* navbar */
+.navbar {
+    background-color: #2f4538;
+}
+
+/* boton iniciar sesion */
+.iniciar-sesion-btn {
+    background-color: white;
+    color: #2f4538;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.iniciar-sesion-btn:hover {
+    background-color: #1e213d;
+    color: white;
+}
+
+

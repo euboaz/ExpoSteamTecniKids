@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\libs\\smarty_4_3_4\\plugins",
+    "\\libs\\smarty_4_3_4\\sysplugins",
+    "\\resources",
+    "\\view",
+    "\\view\\templates"
   ],
-  "SelectedNode": "\\C:\\xampp\\htdocs",
+  "SelectedNode": "\\resources",
   "PreviewInSolutionExplorer": false
 }
